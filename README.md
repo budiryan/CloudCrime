@@ -48,11 +48,18 @@ COMP4651 course project @ HKUST
 	```
 	 > cd ..
 	 > sudo python setup.py install
-   ```
+   	```
+- Install scipy
 
+
+	```
+	 > sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+	 > sudo pip install cython
+	 > sudo pip install scipy
+   	```
 
 ## CONTRIBUTORS:
 - Budi RYAN (bryanaa) (https://github.com/budiryan)
 - Dicky CHIU (mtchiu) (https://github.com/Dickyhaha)
-- Mikaela Uy (mauy) (https://github.com/mikacuy)
+- Mikaela UY (mauy) (https://github.com/mikacuy)
 
