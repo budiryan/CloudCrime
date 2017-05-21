@@ -1,62 +1,41 @@
 # CloudCrime
-COMP4651 course project @ HKUST
+COMP4651 course project @ HKUST.
 
-## Installing Dependencies (Tested on Ubuntu 16.04):
-- Update your system:
+Harnessing the power of Spark's __Mlib__ library and __matplotlib__ to make you feel saver while travelling!
 
-`sudo apt-get update`
-- Install Linux dependencies: 
+# Heat Maps For Each Category
+## All Cagegories
+<img src="heatmaps/ALL CATEGORIES.png" width="800px" height="500px">
 
-`sudo apt-get install build-essential libssl-dev libffi-dev python3-dev`
-- Install Python virtual environment: 
+## LARCENY
+<img src="heatmaps/LARCENY.png" width="800px" height="500px">
 
-`sudo apt-get install python-virtualenv`
-- `cd CloudCrime`
-- Create a new virtual environment: 
+## ASSAULT AND BATTERY/SIMPLE ASSAULT
+<img src="heatmaps/ASSAULT AND BATTERY.png" width="800px" height="500px">
 
-`virtualenv -p python3 env --no-site-packages`
-- Switch to virtual environment: 
+## DAMAGE TO PROPERTY
+<img src="heatmaps/DAMAGE TO PROPERTY.png" width="800px" height="500px">
 
-`source env/bin/activate`
-- Install Python dependencies: 
+## BURGLARY
+<img src="heatmaps/BURGLARY.png" width="800px" height="500px">
 
-`pip install -r requirements.txt`
+## AGG/FEL ASSAULT
+<img src="heatmaps/ASSAULT.png" width="800px" height="500px">
 
-### Install Basemap for visualization
+## VEHICLE THEFT
+<img src="heatmaps/VEHICLE THEFT.png" width="800px" height="500px">
 
-`sudo apt-get update`
+## WARRANTS
+<img src="heatmaps/WARRANTS.png" width="800px" height="500px">
 
-`sudo apt-get install python-gi-cairo`
+## FRAUD
+<img src="heatmaps/FRAUD.png" width="800px" height="500px">
 
-`sudo pip install pyproj pyshp `
+## ROBBERY
+<img src="heatmaps/ROBBERY.png" width="800px" height="500px">
 
-`git clone https://github.com/matplotlib/basemap.git`
-
-- `cd basemap`
-- Install Geos:
-
-	```
-	 > cd geos-3.3.3
-	 > export GEOS_DIR=<where you want the libs and headers to go>
-	   A reasonable choice on a Unix-like system is /usr/local, or
-	   if you don't have permission to write there, your home directory.
-	 > ./configure --prefix=$GEOS_DIR 
-	 > make; make install
-	```
-- Install basemap:
-
-	```
-	 > cd ..
-	 > sudo python setup.py install
-   	```
-- Install scipy
-
-
-	```
-	 > sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
-	 > sudo pip install cython
-	 > sudo pip install scipy
-   	```
+## TELEPHONE USED FOR HARASSMENT
+<img src="heatmaps/TELEPHONE USED FOR HARASSMENT.png" width="800px" height="500px">
 
 ## CONTRIBUTORS:
 - Budi RYAN (bryanaa) (https://github.com/budiryan)
