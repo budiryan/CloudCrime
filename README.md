@@ -1,7 +1,7 @@
 # CloudCrime
 COMP4651 course project @ HKUST.
 
-Harnessing the power of Spark's __Mlib__ library and __matplotlib__ to make you feel saver while travelling!
+Harnessing the power of Spark's __Mllib__ library and __matplotlib__ to make you feel saver while travelling!
 
 # Heat Maps For Each Category
 ## All Cagegories
